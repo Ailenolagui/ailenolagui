@@ -1,0 +1,127 @@
+/*index*/
+
+.homebutton{
+    color: white;
+    background-color: rgb(222, 32, 96);
+    border: 1px;
+    padding:1%;
+    margin-left: 180px;
+    font-size: 17px;
+    font-style: black;
+    font-family: Arial;
+    height: 40px;
+    border-radius: 19px;
+    margin-top: -20px;
+}   
+    
+/*Portada*/
+
+.btn-home{
+    color: rgb(222, 32, 96);
+    background-color: white;
+    border: 0px;
+    padding:0%;
+    margin-left: 200px;
+    font-size: 20px;
+    font-style: bold;
+    font-family: arial;
+    height: 50px;
+}
+
+.btn-highlights{
+    color: rgb(222, 32, 96);
+    background-color: white;
+    border: 0px;
+    padding:0%;
+    margin-left: 200px;
+    font-size: 20px;
+    font-style: bold;
+    font-family:arial;
+}
+
+.btn-contact{
+    color: rgb(222, 32, 96);
+    background-color: white;
+    border: 0px;
+    padding:0%;
+    margin-left: 200px;
+    font-size: 20px;
+    font-style: bold;
+    font-family:arial;
+}
+
+.btn-about{
+    color: rgb(222, 32, 96);
+    margin-left: 200px;
+    background-color: white;
+    font-style: bold;
+    font-family: Arial;
+    font-size: 20px;
+    border: 0px;
+    padding: 0%;
+}
+
+.btn-more-works{
+    color: black;
+    background-color: white;
+    border: 0px;
+    padding:0%;
+    margin-left: 580px;
+    font-size: 25px;
+    font-style: bold;
+    font-family:arial;
+    height: 60px;
+}
+
+/*Lights*/
+
+.btn-back-to-the-top{
+    font-family:arial;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    border: 0px;
+    margin-left:   550px;
+    margin-right:  500px;
+    margin-bottom: 50px;
+    height:        60px;
+}
+
+/*About*/
+
+.Text{
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 17;
+    text-align: center;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+ 
+.ImagenAilen{
+    position: relative;
+    top: 50%;
+    margin-left: 320px;
+}    
+     
+/*Contact*/
+
+.Contact{
+    justify-content: center;
+    color: rgb(222, 32, 96);
+    font-family:arial;
+    margin-left: 570px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.Personaldata{
+    color: rgb(5, 5, 5);
+    background-color: white;
+    margin-left: 550px;  
+    font-size: 17px;
+    font-family:arial;
+    justify-content: center;
+}
+
+
