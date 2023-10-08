@@ -1,31 +1,72 @@
+
 /*index*/
 
-.homebutton{
+.btn-homebutton{    
+    display:inline-block;
+    position: relative;
     color: white;
     background-color: rgb(222, 32, 96);
     border: 1px;
     padding:1%;
-    margin-left: 180px;
+    margin-left: 9.5em;
     font-size: 17px;
-    font-style: black;
-    font-family: Arial;
+    font-style: Bold;
+    font-family: Adelle;
     height: 40px;
     border-radius: 19px;
-    margin-top: -20px;
+    bottom:4em;
 }   
-    
-/*Portada*/
+
+/*Portada slides*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-swiper{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background: #ffffff;    
+    justify-content: center;
+
+}
+
+.swiper{
+width: 100%;
+height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper-button-next {
+color: #fff;
+}
+
+.swiper .swiper-button-next {
+    color: #fff;
+}
+
+.swiper .swiper-pagination-bullet-active{ 
+background-color: #fff;
+}
+
+/*Portada buttons*/
 
 .btn-home{
     color: rgb(222, 32, 96);
     background-color: white;
     border: 0px;
     padding:0%;
-    margin-left: 200px;
+    margin-left: 180px;
     font-size: 20px;
     font-style: bold;
-    font-family: arial;
+    font-family: Adelle;
     height: 50px;
+      
 }
 
 .btn-highlights{
@@ -36,7 +77,7 @@
     margin-left: 200px;
     font-size: 20px;
     font-style: bold;
-    font-family:arial;
+    font-family:Adelle;
 }
 
 .btn-contact{
@@ -47,7 +88,7 @@
     margin-left: 200px;
     font-size: 20px;
     font-style: bold;
-    font-family:arial;
+    font-family:Adelle;
 }
 
 .btn-about{
@@ -55,28 +96,29 @@
     margin-left: 200px;
     background-color: white;
     font-style: bold;
-    font-family: Arial;
+    font-family: Adelle;
     font-size: 20px;
     border: 0px;
     padding: 0%;
 }
 
 .btn-more-works{
-    color: black;
+    color: rgb(112, 109, 109);
     background-color: white;
     border: 0px;
-    padding:0%;
+    padding: 0%;
     margin-left: 580px;
-    font-size: 25px;
-    font-style: bold;
-    font-family:arial;
-    height: 60px;
-}
+    font-size: 20px;
+    font-family:Adelle;
+    
+    bottom:4em;
+    height: 50px;
+    }
 
 /*Lights*/
 
 .btn-back-to-the-top{
-    font-family:arial;
+    font-family:Adelle;
     font-size: 25px;
     color: black;
     background-color: white;
@@ -91,7 +133,7 @@
 
 .Text{
     color: rgb(0, 0, 0);
-    font-family: Arial;
+    font-family: Adelle;
     font-size: 17;
     text-align: center;
     line-height: 1.5;
@@ -106,22 +148,35 @@
      
 /*Contact*/
 
-.Contact{
-    justify-content: center;
-    color: rgb(222, 32, 96);
-    font-family:arial;
-    margin-left: 570px;
-    font-size: 35px;
-    margin-bottom: 50px;
-}
-
 .Personaldata{
     color: rgb(5, 5, 5);
-    background-color: white;
-    margin-left: 550px;  
+    background-color: white; 
     font-size: 17px;
-    font-family:arial;
-    justify-content: center;
+    font-family:Adelle;
+    font-weight: lighter;
+    text-align: center;
+}  
+    
+/* Section in the hightlighs*/
+
+section{
+    display: flex;
+    width: 1280px;
+    height: 200px;
 }
 
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 5seg ease;
+}
 
+section img:hover{
+
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}

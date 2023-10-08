@@ -9,9 +9,15 @@
 
     <link href="style.css" rel="stylesheet">  
 
+<!--Swiper-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
 </head>
 <body>
-    
+  
 <!--button of the top-->
 
     <div class="container">
@@ -23,24 +29,66 @@
 
 <!--logotype-->
 
+
     <div>
-        <img src="img/Website.gif" alt="main" width="1280px" height="320px">
+        <img class="logotype" src="img/logotype.gif" width="1280px" height= "265px">
     </div>
-    
-<!--Images of the projects-->
-    
-    <div>
-        <tr><img src="img/bag3.jpg" alt="elegant" width="1280px" height="800px"></tr>
-        <tr><img src="img/bag6.jpg" alt="elegant" width="1280px" height="1250px"></tr>
-        <tr><img src="img/shoes 7.jpg" alt="elegant" width="1280px" height="1050px"></tr>
-        <tr><img src="img/shoes 9.jpg" alt="elegant" width="1280px" height="1050px"></tr>
-        <tr><img src="img/shoes 8.jpg" alt="elegant" width="1280px" height="1050x"></tr>
+
+<!-- Slider main container -->
+
+<div class="container-swiper" >
+<div class="swiper">
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"> <img src= "img/shoes 1.jpg"> </div>
+      <div class="swiper-slide"> <img src="img/bags2.jpg"> </div>
+      <div class="swiper-slide"> <img src="img/bags3.jpg"> </div>
     </div>
+
+    <!-- Pagination -->
+
+    <div class="swiper-pagination"></div>
+  
+    <!-- Navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+     </div>
+     </div>
+
+    <!--Swiper-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+
+  loop: true,
+
+  // Pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+    </script>
 
 <!--Link website portfolio adobe-->
 
     <a href="https://ailenolagui.myportfolio.com/"><button type="button" class="btn-more-works">More Works → </button></a>
-
 
 </body>
 </html>
